@@ -1,0 +1,102 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.header {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+    transition: font-size 0.3s ease;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #e9ecef;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+    transition: border-color 0.3s ease;
+}
+
+.table-bordered:hover {
+    border-color: #28a745;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: .375rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+}
+
+.card-title:hover {
+    color: #28a745;
+}
